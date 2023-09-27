@@ -13,6 +13,21 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light border">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="cities.html">A Few Cities</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavDiv"
+                aria-controls="collapseNavDiv" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapseNavDiv">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-link active"><a href="basic.html">Basic</a></li>
+                    <li class="nav-link"><a href="advanced.html">Advanced</a></li>
+            </div>
+        </div>
+        </div>
+    </nav>
     <h1>Visit Cities with Veeramreddy Tejeshreddy</h1>
     <div class="container"></div> 
     <div class="row">
@@ -124,7 +139,57 @@
             <button type="button" class="btn btn-danger">M</button>
         </div>
     </div>
-    
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">Dropdown button</button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
+            <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
+        </ul>
+    </div>
+    <br><br>
+
+    <form>
+        <div class="form-control mb-3">
+            <label for="emailAddress">Email</label>
+            <input type="email" id="emailAddress" class="form-control" formControlName="email"
+                placeholder="example@gmail.com" required>
+        </div>
+        <div class="form-control mb-3">
+            <label for="City">City</label>
+            <input type="text" id="City" class="form-control" formControlName="City" placeholder="Enter your city"
+                required>
+        </div>
+        <div class="form-check mb-3">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" formControlName="subscribe"> Sign up for newsletter?
+            </label>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+        <div class="card" style="width: 18rem;">
+            <img src="Vijayawada.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vijayawada</h5>
+              <p class="card-text">Vijayawada,formerly known as Bezawada,is the second largest city in the Indian state of Andhra Pradesh,India.</p>
+              <a href="https://en.wikipedia.org/wiki/Vijayawada" class="btn btn-primary">More about Vijayawada</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="Mumbai.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mumbai</h5>
+              <p class="card-text">Mumbai is also known as Bombay the official name until 1995 is the capital city of the Indian state of Maharashtra,India.</p>
+              <a href="https://en.wikipedia.org/wiki/Mumbai" class="btn btn-primary">More about Mumbai</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="Ellora.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ellora</h5>
+              <p class="card-text">Ellora Caves are a multi-religious rock-cut cave complex with inscriptions dating from the period 6th century CE onwards,located in the Aurangabad District of Maharashtra,India.</p>
+              <a href="https://en.wikipedia.org/wiki/Ellora_Caves" class="btn btn-primary">More about Ellora</a>
+            </div>
+          </div>
 
 
 
